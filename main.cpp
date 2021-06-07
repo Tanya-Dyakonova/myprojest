@@ -19,6 +19,9 @@ int main()
 	diff = a - b;
 	cout << "Sum = " << diff;
 	
+	diff = a * b;
+	cout << "Multiplication = " << diff;
+	
     return 0;
 }
 
