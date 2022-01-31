@@ -1,0 +1,161 @@
+html {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 16px;
+}
+
+body,
+html {
+ height: 100%;
+}
+
+body {
+ color: #fff;
+ margin: 0;
+ background: #17191C;
+ ;
+}
+
+button {
+ cursor: pointer;
+ border: 0;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+ul {
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+
+ul li {
+ list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-weight: normal;
+ margin: 0;
+}
+
+p {
+ margin: 0;
+ padding: 0;
+}
+
+a {
+ color: inherit;
+ cursor: pointer;
+ text-decoration: none;
+}
+
+.wrapper {
+ overflow: hidden;
+ min-height: 100%;
+}
+
+.wrapper--main {
+ /*background: url("../../img/background.jpg");*/
+ background-repeat: no-repeat;
+}
+
+.container {
+ margin: 0 auto;
+ width: 100%;
+ height: 100%;
+ max-width: 1142px;
+}
+
+.button {
+ text-transform: uppercase;
+ background: #8F00FF;
+ border-radius: 5px;
+ padding: 18px 40px;
+ color: #fff;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 19px;
+ transition: 0.3s all ;
+ display: block;
+ max-width: 168px;
+ max-height: 55px;
+ display: flex;
+ justify-content: center;
+}
+
+.button:hover {
+ background: #741BBA;
+}
+
+.button--light {
+ background: transparent;
+ color: #8F00FF;
+ border: 1px solid;
+ max-width: 135px;
+}
+
+.button--light:hover {
+ background: #8F00FF;
+ border: 1px solid #8F00FF;
+ color: #fff
+}
+
+.transparent--button {
+ background: none;
+ border: 1px solid #FFFFFF;
+}
+
+.transparent--button:hover {
+ background: #0000002f;
+ border: 1px solid #fff;
+ color: #fff
+}
+
+.title {
+ font-style: normal;
+ font-weight: bold;
+ font-size: 36px;
+ line-height: 42px;
+ color: #fff;
+ margin-bottom: 55px;
+}
+
+.title--new {
+ position: relative;
+}
+
+.title--new:after {
+ content: "";
+ background: url("../../img/new.png") no-repeat;
+ margin-left: 9px;
+ width: 42px;
+ height: 41.42px;
+ position: absolute;
+}
+
+.subtitle {
+ font-style: normal;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 28px;
+}
+
+.subtitle--dark {
+ color: #000000;
+}
+
+.subtitle--light {
+ color: #fff;
+}
+
+
+
+
+

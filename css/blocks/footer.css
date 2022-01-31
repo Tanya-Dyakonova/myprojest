@@ -1,0 +1,43 @@
+.footer {
+ height: 115px;
+ position: relative;
+ margin-top: 27px;
+}
+
+.footer-container__content{
+ border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu__footer {
+ top: 40px;
+ left: 290px;
+}
+
+.socials__item {
+ display: inline-block;
+ vertical-align: middle;
+ margin-right: 6px;
+}
+
+.socials__item:last-child {
+	margin-right: 0;
+}
+
+.socials__link {
+ display: block;
+ width: 36px;
+ height: 36px;
+}
+
+.socials {
+ position: absolute;
+ top: 24px;
+ right: 265px;
+}
+
+.contacts__call {
+ color: #9A9A9A;
+ font-size: 11px;
+ right: 0;
+ margin-bottom: 6px;
+}

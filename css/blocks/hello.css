@@ -1,0 +1,16 @@
+.hello {
+ margin-bottom: 195px;
+}
+
+.hello--title {
+ width: 650px;
+ font-size: 60px;
+ line-height: 1.1;
+ margin-bottom: 18px;
+}
+
+.hello__text {
+ font-size: 21px;
+ margin-bottom: 76px;
+}
+
